@@ -33,7 +33,7 @@ main h2 {
     font-size: 22px;
     font-weight: 400;
 
-    padding-bottom: .25rem;
+    margin-bottom: .25rem;
 }
 
 /*====main====*/
@@ -103,7 +103,7 @@ footer {
     font-size: 20px;
     font-weight: 300 ;
 
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 
 @media (min-width: 800px){
@@ -122,10 +122,6 @@ footer {
         width: 100%;
         margin: 0;
         
-    }
-
-    main h2{
-        margin: 0 1rem;
     }
 
     button{

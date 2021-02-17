@@ -18,20 +18,20 @@
 
     <main>
         <div id="form">
-            <div id="card binario">
+            <div>
                 <h2>
                     Binário
                 </h2>
-                <input type="number" placeholder="Digite o valor binário">
+                <input id="inputBinario" onfocus="clearDec()" type="number" value="" placeholder="Digite o valor binário">
             </div>
-            <div id="card decimal">
+            <div>
                 <h2>
                     Decimal
                 </h2>
-                <input type="number" placeholder="Digite o valor decimal">
+                <input id="inputDecimal" onfocus="clearBin()" type="number" value="" placeholder="Digite o valor decimal">
             </div>
 
-            <button> Converter </button>
+            <button onclick="tryConvert()"> Converter </button>
         </div>
     </main>
     
@@ -39,7 +39,7 @@
     <footer>
         <p>Digite em qualquer um dos campos e aperte para converter</p>
     </footer>
-    
+
     <script src="scripts.js"></script>
 
 </body>
